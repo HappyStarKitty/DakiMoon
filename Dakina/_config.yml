@@ -102,6 +102,6 @@ theme: reimu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/HappyStarKitty/DakiMoon.git
+  repo: https://github.com/HappyStarKitty/HappyStarKitty.github.io.git
   branch: gh-pages
 
