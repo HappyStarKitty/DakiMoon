@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "hexo": "^7.2.0",
+    "hexo-filter-mermaid-diagrams": "^1.0.5",
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-search": "^2.4.3",
+    "hexo-renderer-markdown-it-plus": "^1.0.6",
+    "hexo-renderer-marked": "^6.3.0",
+    "hexo-theme-reimu": "^0.2.0"
+  }
+}
