@@ -1,9 +1,7 @@
 ---
 title: Hexo Guide
 date: 2024-06-29 23:00:41
-he
 tags:
-cover: false
 ---
 ## Quick Start
 
