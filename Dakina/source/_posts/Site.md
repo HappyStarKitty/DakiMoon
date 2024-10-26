@@ -7,7 +7,7 @@ tags: hexo mkdocs
 
 ## Create A Blog
 参考 [hexo官方文档](https://hexo.io/zh-cn/docs/)和[tonycrane's notebook](https://note.tonycrane.cc/cs/tools/hexo/)
-hexo 需要两个 repo，分别用于存储项目源码和博客源码
+hexo 需要两个 repo，分别用于存储项目源码和博客源码。
 
 ### Hexo Command
 ```bash
