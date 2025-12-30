@@ -1,7 +1,9 @@
 ---
 title: Blog & Notebook
 date: 2024-06-29 23:00:41
-tags: hexo mkdocs
+categories: 
+    - study log
+hidden: true
 ---
 搭建 Blog 和 Notebook 在学习中发挥的真正作用因人而异，但对于CS小白依然是件非常有成就感的事情。本篇我们将利用 Hexo 和 Mkdocs 分别创建 Blog 及 Notebook。
 
@@ -18,6 +20,8 @@ hexo deploy # 网页部署
 hexo clean # 清除缓存
 hexo generate # 项目生成
 ```
+
+### Hexo Format
 
 ### Hexo Theme
 因为 bz 是车车人，所以采用了一款博丽灵梦的主题 reimu。不过 bz 的好兄弟采用的是经美化过的 butterfly 主题，感兴趣的同学也可以试试，还是挺炫酷的。<del>画个饼，等我学了一点CS技术后可能会开发金发小女孩的主题。</del>
@@ -45,10 +49,6 @@ mkdocs get-deps # 加载插件
 material 作为一个基础的框架主题基本满足了上传和展示笔记的需求。但是为了美化网站外观和优化协作流程，使用一些工具和插件是不可避免的。
 
 xg 的 mkdocs 工具链比较完善，可以直接使用相应的插件。
-
-PS1：python 原生和 anaconda 版本存在冲突。如果在 VScode 中使用 pip 显示无插件时可在 powershell 中执行pip 命令。包管理一直是Python小白的难题。
-
-PS2：mkdocs 的 markdown 解析不是很好，建议在不同内容（如段与段、公式与文字）间插上空行
 
 ### Material Individuation
 

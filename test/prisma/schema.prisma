@@ -1,0 +1,18 @@
+generator py-client {
+  provider             = "prisma-client-py"
+  previewFeatures      = ["fullTextSearch", "views"]
+  recursive_type_depth = "-1"
+}
+
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://postgres:postgres@localhost:5432/postgres?schema=public"
+}
+
+model User {
+  id    Int     @id @default(autoincrement())
+  email String  @unique
+  name  String?
+  posts String
+}
